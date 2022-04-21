@@ -19,7 +19,7 @@ const addManager = () => {
         {
             type: 'input',
             name: 'name',
-            message: "Enter the manager's name: "
+            message: "Enter the manager's name: ",
             // was going to call this name but that caused problems
             // forces user to fill out this value in the CLI form
             validate: nameInput => {
