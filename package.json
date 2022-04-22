@@ -1,0 +1,17 @@
+{
+    "name": "oop-team-profile-generator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "inquirer": "^8.2.0",
+      "jest": "^27.4.3"
+    }
+  }
