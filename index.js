@@ -1,13 +1,9 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-
-// function to include the generated HTML file
 const generateHTML = require('./src/generateHTML');
-// Includes different profiles
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
-const { type } = require('os');
 
 //create array for team
 const teamArray = [];
