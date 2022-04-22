@@ -1,6 +1,3 @@
-// js file to help html page render depending on inquirer answers
-
-
 //Manager information logic
 const generateManager = function (manager) {
     return `
@@ -62,7 +59,7 @@ const generateIntern = function (intern) {
     `;
 };
 
-generateHTML = (data) => {
+const generateHTML = (data) => {
     cardArray = [];
     //create array for all the cards that are generated
 
@@ -129,7 +126,7 @@ const generateTeamPage = function (employeeCards){
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </html>
     `;
-}
+};
 
 //makeing this file available to the index page
-module.exports = generatedHTML;
+module.exports = generateHTML;
